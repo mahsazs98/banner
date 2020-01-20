@@ -65,15 +65,9 @@
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+    });
 
-        coverflowEffect: {
-            rotate: 0,
-            slideShadows: true,
-            stretch: -50,
-            deph: 100,
-            modifier: 1,
-        },
-
+        var swiper = new Swiper('.swiper-container', {
         // Default parameters
         slidesPerView: 1,
         spaceBetween: 10,
@@ -99,7 +93,16 @@
 
     });
 
+    var mySwiper = new Swiper('.swiper-container', {
 
+        coverflowEffect: {
+            rotate: 0,
+            slideShadows: true,
+            stretch: -50,
+            deph: 100,
+            modifier: 1,
+        },
+    });
 
 </script>
 

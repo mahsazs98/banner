@@ -19,19 +19,19 @@
         <div class="swiper-slide">
             <a href="#">
                 slide 1
-                <img src="#" alt="suits" style="width:100%;">
+                <img src="Menswear-post-def2.png" alt="suits" style="width:100%;">
             </a>
         </div>
         <div class="swiper-slide">
             <a href="#">
                 slide 2
-                <img src="#" alt="suits" style="width:100%;">
+                <img src="slide-2-new.jpg" alt="suits" style="width:100%;">
             </a>
         </div>
         <div class="swiper-slide">
             <a href="#">
                 slide 3
-                <img src="#" alt="suits" style="width:100%;">
+                <img src="Soviet-AW17_Homepage-Banner_Polos_1180x465px.jpg" alt="suits" style="width:100%;">
             </a></div>
 
     </div>
@@ -50,6 +50,8 @@
 
 <!-- Initialize Swiper -->
 <script>
+
+
     var swiper = new Swiper('.swiper-container', {
         spaceBetween: 30,
         centeredSlides: true,
@@ -65,9 +67,7 @@
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-    });
 
-        var swiper = new Swiper('.swiper-container', {
         // Default parameters
         slidesPerView: 1,
         spaceBetween: 10,
@@ -101,6 +101,19 @@
             stretch: -50,
             deph: 100,
             modifier: 1,
+        },
+    });
+
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        effect: 'fade',
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
         },
     });
 
